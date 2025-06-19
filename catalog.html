@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotinder | breeds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="index.html"></a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="index.html" class="menu__list-link menu__list-link--active">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="catalog.html" class="menu__list-link">Породы</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Наши котики</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Партнеры</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link">Объявления</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="contacts.html" class="menu__list-link menu__list-link--active">Контактная информация</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+       
+        <main class="main">
+            <section class="choose">
+                <div class="container">
+                    <h2 class="section-title">
+                        Выбери своего любимца
+                    </h2>
+                    <div class="tabs">
+                        <div class="tabs__btn">
+                            <button class="tabs__btn-item tabs__btn-item--active">ВСЕ</button>
+                            <button class="tabs__btn-item 
+                            tabs__btn-item--active">Аристократичные породы</button>
+                            <button class="tabs__btn-item">Уникальная внешность</button>
+                            <button class="tabs__btn-item">Энергичные компаньоны</button>
+                            <button class="tabs__btn-item">Ласковые и домашние</button>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__content-item" id="content-1">
+                                <div class="card" data-category="Аристократичные породы">
+                                    <img class="card__img" src="img/1pers.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Персидская</h4>
+                                        <p class="card__text">от 25 т.р.</p>
+                                        <p class="card__price">6-10 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Аристократичные породы">
+                                    <img class="card__img" src="img/2main.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Мейн-кун</h4>
+                                        <p class="card__text">от 50 т.р.</p>
+                                        <p class="card__price">8-15 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Аристократичные породы">
+                                    <img class="card__img" src="img/3rus.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Русская голубая</h4>
+                                        <p class="card__text">от 30 т.р.</p>
+                                        <p class="card__price">5-8 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Аристократичные породы">
+                                    <img class="card__img" src="img/10british.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Британская </h4>
+                                        <p class="card__text">от 20 т.р.</p>
+                                        <p class="card__price">4-7 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Уникальная внешность">
+                                    <img class="card__img" src="img/4sf.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Сфинкс</h4>
+                                        <p class="card__text">от 40 т.р.</p>
+                                        <p class="card__price">7-12 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Уникальная внешность">
+                                    <img class="card__img" src="img/5dev.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Девон-рекс</h4>
+                                        <p class="card__text">от 35 т.р.</p>
+                                        <p class="card__price">6-9 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Уникальная внешность">
+                                    <img class="card__img" src="img/6scotish.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Шотландская</h4>
+                                        <p class="card__text">от 25 т.р.</p>
+                                        <p class="card__price">5-8 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Уникальная внешность">
+                                    <img class="card__img" src="img/9ori.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Ориентальная</h4>
+                                        <p class="card__text">от 35 т.р.</p>
+                                        <p class="card__price">6-10 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Энергичные компаньоны">
+                                    <img class="card__img" src="img/7abs.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Абиссинская</h4>
+                                        <p class="card__text">от 30 т.р.</p>
+                                        <p class="card__price">6-9 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Энергичные компаньоны">
+                                    <img class="card__img" src="img/8beng.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Бенгальская</h4>
+                                        <p class="card__text">от 60 т.р.</p>
+                                        <p class="card__price">8-14 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Ласковые и домашние">
+                                    <img class="card__img" src="img/11regi.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Рэгдолл</h4>
+                                        <p class="card__text">от 45 т.р.</p>
+                                        <p class="card__price">7-11 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                                <div class="card" data-category="Ласковые и домашние">
+                                    <img class="card__img" src="img/12siam.jpg" alt="">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Сиамская</h4>
+                                        <p class="card__text">от 15 т.р.</p>
+                                        <p class="card__price">5-8 т.р./месяц</p>
+                                    </div>
+                                    <a href="#" class="card__link">детали</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="showmore-link">ЕЩЕ</a>
+                </div>
+            </section>
+
+            <section class="blog">
+                <div class="container">
+                    <div class="blog__items">
+                        <div class="blog__item">
+                            <img class="blog__item-img" src="img/sts.jpg" alt="">
+                            <h4 class="blog__item-title">
+                                Статистика пород кошек
+                            </h4>
+                            <a class="blog__item-link" href="#">еще</a>
+                        </div>
+                        <div class="blog__item">
+                            <img class="blog__item-img" src="img/bob.jpg" alt="">
+                            <h4 class="blog__item-title">
+                                Интересные статьи
+                            </h4>
+                            <a class="blog__item-link" href="#">еще</a>
+                        </div>
+                    </div>
+                    <a href="#" class="blog__link">еще</a>
+                </div>
+            </section>
+            </main>
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Услуги</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Прием в семью</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Ветеринарная клиника</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Кото-отель</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Справка</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Блог</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Контактные данные</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Работа у нас</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Вакансии</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Условия</a>
+                        </li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item">
+                            <p class="footer__menu-title">Партнеры</p>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Команда</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Реклама</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#" class="footer__menu-link">Основатели</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <ul class="app">
+                    <li class="app__item">
+                        <a href="#" class="app__item-link">
+                            <img class="app__item-img" src="img/appstore.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="app__item">
+                        <a href="#" class="app__item-link">
+                            <img class="app__item-img" src="img/googleplay.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__copy">
+                    <p class="footer__copy-text">По всем вопросам звоните по телефону
+                        8-800-555-35-35
+                    </p>
+                </div>
+                <nav class="copy__nav">
+                    <ul class="copy__nav-list">
+                        <li class="copy__nav-item"><a href="#" class="copy__nav-link">Со знанием дела</a>
+                        </li>
+                        <li class="copy__nav-item"><a href="#" class="copy__nav-link">С заботой</a>
+                        </li>
+                        <li class="copy__nav-item"><a href="#" class="copy__nav-link">С любовью</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
